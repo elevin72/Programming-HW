@@ -7,7 +7,7 @@
 using namespace std;
 
 const float PI = 3.14;
-//a CHANGE
+
 //calculate Area of Circle
 float Circle::CalcArea(){
     return PI*_radius*_radius;
