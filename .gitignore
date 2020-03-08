@@ -1,0 +1,11 @@
+*.docx
+*.docx#
+*.pptx
+*.pptx#
+*.pdf
+*.txt
+*.jar
+*.out
+*.odt
+FunctionsThatIGoneAndDone.cpp
+Walter*

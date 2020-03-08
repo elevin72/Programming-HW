@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CppCompile",
+            "type": "shell",
+            "command": "cd \"${fileDirname}/\" && g++ -g *.cpp -o a.out",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "type": "shell",
+            "label": "cpp build active file",
+            "command": "/usr/bin/cpp",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
+        }
+    ]
+}
