@@ -7,5 +7,7 @@
 *.jar
 *.out
 *.odt
+*.odp
+*.odp#
 FunctionsThatIGoneAndDone.cpp
 Walter*
