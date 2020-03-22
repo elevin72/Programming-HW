@@ -8,7 +8,7 @@ using namespace std;
 Polygon::Polygon(Point* vertices, int numVert)
         :_vertices(vertices), _numVert(numVert) {
     if(_numVert <= 2){
-        //_vertices = NULL;
+        //_vertices = nullptr;
         _numVert = -1;
         return;
     }
