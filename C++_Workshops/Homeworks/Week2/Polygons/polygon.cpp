@@ -4,7 +4,7 @@
 #include "polygon.h"
 using namespace std;
 
-
+//constructor
 Polygon::Polygon(Point* vertices, int numVert)
         :_vertices(vertices),
          _numVert(numVert) {
@@ -20,9 +20,11 @@ Polygon::Polygon(Point* vertices, int numVert)
     }
 }
 
+//copy constructor
 Polygon::Polygon(const Polygon& p)
         :Polygon(p._vertices, p._numVert){}    //call constructor
 
+//destructor
 Polygon::~Polygon(){
     delete[] _vertices;
 }

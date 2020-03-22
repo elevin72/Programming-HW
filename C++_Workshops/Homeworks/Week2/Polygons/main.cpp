@@ -1,11 +1,11 @@
 /* 
-File Name:
-Description of program:
+Program Name: Polygon
+Description of program: Create polygon class with constructors and destructors and do some stuff with polygons
 Course Name: C++ Workshops
-Exercise# and Question#:
+Exercise# and Question#: Exercise 2, question 1
 Name: Eli Levin 341318228
 Creation date: 21/03/2020
-Last Modification date:
+Last Modification date: 22/03/2020
 */
 #include <iostream>
 #include <cmath>
