@@ -2,10 +2,10 @@
 Program Name: Date Manipulator
 Description of program: Manipulates dates
 Course Name: C++ Workshops
-Exercise# and Question#:
+Exercise# and Question#: Exercise 4 Question 2
 Name: Eli Levin 341318228
 Creation date: 11/04/2020
-Last Modification date:
+Last Modification date: 12/04/2020
 */
 #include <iostream>
 #include "date.h"
@@ -64,8 +64,42 @@ int main()
             break;
         }
     } while (choice != -1);
-    
 
     return 0;
-
 }
+
+/*
+*********Test***********
+Enter a date
+5/24/2018
+Error month
+5/1/2018
+What do you want to do
+1
+Enter a date
+24/5/2018
+24/5/2018
+What do you want to do
+4
+Enter #days
+11
+5/6/2018
+What do you want to do
+2
+6/6/2018
+What do you want to do
+3
+6/6/2018
+What do you want to do
+6
+Enter a date
+7/10/2018
+<: true
+What do you want to do
+7       
+Enter a date
+7/6/2018
+==: true
+What do you want to do
+-1
+*/

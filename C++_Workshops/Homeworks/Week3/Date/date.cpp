@@ -2,7 +2,6 @@
 #define DATE_CPP
 
 #include <iostream>
-#include <iomanip>
 #include "date.h"
 using namespace std;
 
@@ -139,6 +138,10 @@ istream& operator>>(istream& in, Date& r) {
     in >> d >> slash >> m >> slash >> y;
     r.SetDate(d,m,y);
     return in;
+}
+
+void Date::Print() const {
+    cout << _day << '/' << _month << '/' << _year << endl;
 }
 
 #endif
