@@ -29,7 +29,7 @@ public:
     bool operator<(const Date& other) const;
     bool operator==(const Date& other) const;
     
-    void Print() const; //NOT DEFINED
+    void Print() const;
     friend ostream& operator<<(ostream& out, const Date& r);
     friend istream& operator>>(istream& in, Date& r);
 };
