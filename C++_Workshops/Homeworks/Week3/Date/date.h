@@ -2,7 +2,6 @@
 #define DATE_H
 
 #include <iostream>
-using namespace std;
 
 class Date
 {
@@ -30,8 +29,8 @@ public:
     bool operator==(const Date& other) const;
     
     void Print() const;
-    friend ostream& operator<<(ostream& out, const Date& r);
-    friend istream& operator>>(istream& in, Date& r);
+    friend std::ostream& operator<<(std::ostream& out, const Date& r);
+    friend std::istream& operator>>(std::istream& in, Date& r);
 };
 
 #endif

@@ -39,7 +39,7 @@ bool Rational::operator>(const Rational& r) const{
 }
 
 bool Rational::operator>=(const Rational& r) const{
-    return (float)_num /_denom >= r._num / r._denom ? true : false;
+    return (float)_num /_denom >= r._num / (float)r._denom ? true : false;
 }
 
 Rational Rational::operator-(const Rational& r) const {

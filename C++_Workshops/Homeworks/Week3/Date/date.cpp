@@ -110,6 +110,7 @@ bool Date::operator==(const Date& other) const {
     return false;
 }
 
+//This function converts a Date object to an integer representing the number of days since jan 1, 1970, given that all months have 30 days
 int Date::ConvertToEpoch() const {
     int numDays = 0;
     numDays += (_year - 1970)*360; //360 is number of days in year in this calendar
@@ -118,6 +119,7 @@ int Date::ConvertToEpoch() const {
     return numDays;
 }
 
+//This function accepts an integer 'days' and returns a Date object with 'days' number of days since jan 1, 1970 
 Date Date::UnconvertFromEpoch(int days) const {
     Date temp;
     temp._year = (days/360) + 1970;

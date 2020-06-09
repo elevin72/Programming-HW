@@ -5,7 +5,7 @@ Course Name: C++ Workshops
 Exercise# and Question#:
 Name: Eli Levin 341318228
 Creation date: 02/04/2020
-Last Modification date:
+Last Modification date: 16/04/20
 */
 #include "rational.h"
 #include <iostream>
@@ -54,13 +54,6 @@ int main()
     cout << "a!=b: " << (a!=b ? "true" : "false") << endl;
     cout << "a<b: " << (a<b ? "true" : "false") << endl;
     cout << "a>=b: " << (a>=b ? "true" : "false") << endl;
-
-
-
-
-    
-
-
 
     return 0;
 
